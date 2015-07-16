@@ -1,3 +1,3 @@
-Meteor.Meteor.publish("classes", function(argument){
-  return Classes.find();
+Meteor.publish("classes", function(argument) {
+    return Classes.find();
 });
