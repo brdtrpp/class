@@ -1,10 +1,6 @@
 <template name="layout">
 	<div class="container">
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="{{pathFor 'classesList'}}">Class</a>
-			</div>
-		</nav>
+		{{> header}}
 		<div id="main">
 			{{> yield}}
 		</div>
