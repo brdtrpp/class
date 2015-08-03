@@ -1,16 +1,15 @@
 <template name="classItem">
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<h4>{{title}}<small> - {{zipCode}}</small></h4>  {{startDate}}-{{endDate}}
+	<div class="card">
+		<div class="card-title activatir grey-text text-darken-4">
+			<center>{{title}} - <small>{{zipCode}}</small>  {{startDate}}-{{endDate}}</center>
 		</div>
-		<div class="panel-body" style="min-height: 200px; max-height: 200px;">
+		<div class="card-content" style="min-height: 200px; max-height: 200px;">
 			<center><p>{{startTime}} - {{endTime}}</p></center>
 			<center><p>{{address}}</p></center>
 			<p>{{description}}</p>
 		</div>
-		<div class="panel-footer">
-			<a href="{{pathFor 'classPage'}}" class="btn btn-success">Details</a>
-			<a href="{{pathFor 'classPage'}}" class="btn btn-warning pull-right">Join Class</a>
+		<div class="card-action">
+			<a href="{{pathFor 'classPage'}}" class="btn green">Join Class</a>
 		</div>
 	</div>
 </template>

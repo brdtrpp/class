@@ -1,18 +1,12 @@
 <template name="header">
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="navbar-header">
-		    <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navigation">
-		        <span class="sr-only">Toggle Navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		    </button>
-			<a class="navbar-brand" href="{{pathFor 'classesList'}}">Class</a>
-		</div>
-		<div class="collapse navbar-collapse" id="navigation">
-		    <ul class="nav navbar-nav navbar-right">
-		        {{> loginButtons}}
-		    </ul>
-		</div>
-	</nav>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper blue">
+        <a href="#!" class="brand-logo">Class</a>
+        <ul class="right hide-on-med-and-down">
+          <a href="{{pathFor 'account'}}">Sign-In</a>
+          </ul>
+      </div>
+    </nav>
+  </div>
 </template>
