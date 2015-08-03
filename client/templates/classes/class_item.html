@@ -1,15 +1,14 @@
 <template name="classItem">
 	<div class="card hoverable">
-		<div class="card-title activatir grey-text text-darken-4">
-			<center>{{title}} - <small>{{zipCode}}{{startDate}}-{{endDate}}</small>  </center>
-		</div>
+		<div class="card-title activator grey-text text-darken-4 center">
+			{{title}} - <small>{{zipCode}}</small></div>
 		<div class="card-content" style="min-height: 200px; max-height: 200px;">
 			<center><p>{{startTime}} - {{endTime}}</p></center>
 			<center><p>{{address}}</p></center>
 			<p>{{description}}</p>
 		</div>
 		<div class="card-action">
-			<center><a href="{{pathFor 'classPage'}}" class="waves-effect btn green white-text">Join Class <i class="large material-icons">play_arrow</i></a></center>
+			<a href="{{pathFor 'classPage'}}" class="waves-effect btn green white-text">Join Class</a>
 		</div>
 	</div>
 </template>
