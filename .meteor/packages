@@ -12,6 +12,6 @@ iron:router
 sacha:spin
 accounts-password
 materialize:materialize
-useraccounts:materialize
-useraccounts:core
 accounts-facebook
+service-configuration
+useraccounts:materialize

@@ -2,11 +2,16 @@
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper blue">
-        <a href="#!" class="brand-logo">Class</a>
+        <a href="/" class="brand-logo">Class</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <a href="{{pathFor 'account'}}">Sign-In</a>
-          </ul>
+          {{> atNavButton}}
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          
+        </ul>
       </div>
     </nav>
   </div>
+  
 </template>
