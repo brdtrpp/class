@@ -1,5 +1,5 @@
-if (Classes.find().count() === 0) {
-	Classes.insert({
+if (Posts.find().count() === 0) {
+	Posts.insert({
 		title: 'Introduction Guitar',
 		description: 'Learn the Guitar',
 		location: 'beavercreek',
@@ -10,7 +10,7 @@ if (Classes.find().count() === 0) {
 		price: '$15/hour'
 	});
 	
-	Classes.insert({
+	Posts.insert({
 		title: 'Intermediate Guitar',
 		description: 'Learn the Guitar, this is for the Intermediate students',
 		location: 'Beavercreek',
@@ -21,7 +21,7 @@ if (Classes.find().count() === 0) {
 		price: '$20/hour'
 	});
 	
-	Classes.insert({
+	Posts.insert({
 		title: 'Advanced Guitar',
 		description: 'Learn the Guitar, this is for the most advanced students',
 		location: 'Beavercreek',
@@ -32,7 +32,7 @@ if (Classes.find().count() === 0) {
 		price: '$25/hour'
 	});
 	
-	Classes.insert({
+	Posts.insert({
 		title: 'Another Advanced Guitar',
 		description: 'Learn the Guitar, this is for the most advanced students EVAR!',
 		location: 'beavercreek',

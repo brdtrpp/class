@@ -1,4 +1,4 @@
-Meteor.publish("classes", function(argument) {
-    return Classes.find();
+Meteor.publish("posts", function(argument) {
+    return Posts.find();
 });
 

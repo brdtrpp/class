@@ -1,0 +1,16 @@
+<template name="postItem">
+	<div class="card hoverable">
+		<div class="card-title activator grey-text text-darken-4 center" style="min-height: 50px; max-height: 50px;">
+			{{title}} - <small>{{city}}</small></div>
+		<div class="card-content" style="min-height: 150px; max-height: 150px;">
+			<center>{{startTime}} - {{endTime}}</center>
+			<p></p>
+			<p></p>
+			<p></p>
+			<p>{{description}}</p>
+		</div>
+		<div class="card-action">
+			<a href="{{pathFor 'postPage'}}" class="waves-effect btn white-text">Join Class</a>
+		</div>
+	</div>
+</template>
