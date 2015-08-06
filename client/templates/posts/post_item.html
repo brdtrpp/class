@@ -8,9 +8,11 @@
 			<p></p>
 			<p></p>
 			<p>{{description}}</p>
+			<p>-{{author}}</p>
 		</div>
 		<div class="card-action">
 			<a href="{{pathFor 'postPage'}}" class="waves-effect btn white-text">Join Class</a>
+			{{#if ownPost}}<a href="{{pathFor 'postEdit'}}">Edit</a>{{/if}}
 		</div>
 	</div>
 </template>

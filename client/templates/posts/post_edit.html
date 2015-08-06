@@ -1,0 +1,79 @@
+<template name="postEdit">
+    <div class="row">
+        <div class="col m10 offset-m1">
+            <div class="card">
+                <div class="card-title grey-text text-darken-4 center">
+                    Open A New Class
+                </div>
+                <div class="card-content">
+                    <form>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <label for="title">Title</label>
+                                <input name="title" id="title" type="text" value=""/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <label for="startDate">Start Date</label>
+                                <input name="startDate" id="startDate" type="text"/>
+                            </div>
+                            <div class="input-field col s6">
+                                <label for="endDate">End Date</label>
+                                <input name="endDate" id="endDate" type="text"/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <label for="startTime">Start Time</label>
+                                <input name="startTime" id="startTime" type="text" value=""/>
+                            </div>
+                            <div class="input-field col s6">
+                                <label for="endTime">End Time</label>
+                                <input name="endTime" id="endTime" type="text" value=""/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <label for="address1">Address 1</label>
+                                <input name="address1" id="address1" type="text" value=""/>
+                            </div>
+                            <div class="input-field col s12">
+                                <label for="address2">Address 2</label>
+                                <input name="address2" id="address1" type="text" value=""/>
+                            </div>
+                            <div class="input-field col s5">
+                                <label for="city">City</label>
+                                <input name="city" id="city" type="text" value=""/>
+                            </div>
+                            <div class="input-field col s3">
+                                <label for="state">State</label>
+                                <input name="state" id="state" type="text" value=""/>
+                            </div>
+                            <div class="input-field col s4">
+                                <label for="zip">Zip Code</label>
+                                <input name="zip" id="zip" type="text" value=""/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <label for="price">Price</label>
+                                <input name="price" id="price" type="text" value=""/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                  <textarea name="description" id="description" class="materialize-textarea"></textarea>
+                                  <label for="description">Description</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="Submit" class="btn">
+                            <a class="btn red delete">Delete</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
