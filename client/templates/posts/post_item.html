@@ -1,5 +1,5 @@
 <template name="postItem">
-		<div class="card-title activator grey-text text-darken-4 center" style="min-height: 50px; max-height: 50px;">
+		<div class="card-title activator grey-text text-darken-4 center">
 			{{title}}
 			<i class="material-icons right">more_vert</i>
 			</div>
@@ -20,6 +20,6 @@
 		</div>
 		<div class="card-action">
 			<a href="{{pathFor 'postPage'}}" class="waves-effect btn white-text">Join Class</a>
-			{{#if ownPost}}<a href="{{pathFor 'postEdit'}}" class="right waves-effect btn orange white-text">Edit</a>{{/if}}
+			{{#if ownPost}}<a href="{{pathFor 'postEdit'}}" class="right ">Edit</a>{{/if}}
 		</div>
 </template>
