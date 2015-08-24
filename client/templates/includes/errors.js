@@ -3,4 +3,3 @@ Template.errors.helpers({
     return Errors.find();
   }
 });
-
