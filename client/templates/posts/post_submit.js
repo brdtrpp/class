@@ -24,7 +24,7 @@ Template.postSubmit.events({
       
       // show this result but route anyway
       if (result.postExists)
-        thr('This class has already been posted');
+        throwError('This class has already been posted');
       
       Router.go('postPage', {_id: result._id});  
     });
