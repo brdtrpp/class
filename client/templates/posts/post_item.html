@@ -1,25 +1,22 @@
 <template name="postItem">
-		<div class="card-title activator grey-text text-darken-4 center">
-			{{title}}
-			<i class="material-icons right">more_vert</i>
+		<div class="card-title  grey-text text-darken-4 center">
+			{{title}} <small>{{city}}</small>
 			</div>
-		<div class="card-content" style="min-height: 150px; max-height: 150px;">
+		<div class="card-content">
 			<div>
-				{{city}}
+				
 			</div>
-			<center>{{startDate}} - {{endDate}}</center>
-			<right>{{author}}</right>
-		</div>
-		<div class="card-reveal">
-			<span class="card-title grey-text text-darken-4">{{title}}<i class="material-icons right">close</i></span>
-			<p>submitted by {{author}}</p>
-			<center>{{startTime}} - {{endTime}}</center>
+			<div>{{startDate}} - {{endDate}}</div>
+			<div>{{startTime}} - {{endTime}}</div>
+			<div>instructed by {{author}}</div>
+			<p>{{description}}</p>
 			<p>{{address1}}</p>
 			<p>{{address2}}</p>
 			<p>{{city}}, {{state}} {{zipcode}}</p>
-			<p>{{description}}</p>
+			
 		</div>
 		<div class="card-action">
+			<div>{{commentsCount}} comments</div>
 			<a href="{{pathFor 'postPage'}}" class="waves-effect btn white-text">Join Class</a>
 			{{#if ownPost}}<a href="{{pathFor 'postEdit'}}" class="right ">Edit</a>{{/if}}
 		</div>
