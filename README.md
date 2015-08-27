@@ -26,4 +26,6 @@ Share the world’s knowledge.
 * Create Accounts Page
 * Form Validation
 * Pagenation - infinite scroll!
-* Voting/Star Stystem
+* Voting/Star System
+* Sorting Options
+* Search Methods
