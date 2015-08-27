@@ -25,7 +25,5 @@ Share the world’s knowledge.
 
 * Create Accounts Page
 * Form Validation
-* Comments
-* Notifications
-* Pagenation
+* Pagenation - infinite scroll!
 * Voting/Star Stystem

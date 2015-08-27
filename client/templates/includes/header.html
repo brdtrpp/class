@@ -4,8 +4,10 @@
       <div class="nav-wrapper blue darken-1 z-depth-1">
         <a href="/" class="brand-logo">Class</a>
         <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="hide-on-med-and-down">
-          
+        <ul class="right">
+          {{#if currentUser}}
+          <li>{{> notifications}}</li>
+          {{/if}}
         </ul>
         <ul class="right hide-on-med-and-down">
           <li>{{> searchbar}}</li>
@@ -14,6 +16,9 @@
         <ul class="side-nav" id="slide-out">
           <li>{{> atNavButton}}</li>
           <li>{{> searchbar}}</li>
+          <!--          {{#if currentUser}}-->
+          <!--<li>{{> notifications}}</li>-->
+          <!--{{/if}}-->
         </ul>
       </div>
     </nav>
