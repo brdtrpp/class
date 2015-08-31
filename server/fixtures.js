@@ -3,13 +3,29 @@ if (Posts.find().count() === 0) {
 
   // create two users
   var tomId = Meteor.users.insert({
-    profile: { name: 'Tom Coleman', email: "tom.coleman@gmail.com" }
+    profile: { username: 'Tom Coleman', email: "tom.coleman@gmail.com" }
   });
   var tom = Meteor.users.findOne(tomId);
   var sachaId = Meteor.users.insert({
-    profile: { name: 'Sacha Greif', email: "sacha.greif@gmail.com" }
+    profile: { username: 'Sacha Greif', email: "sacha.greif@gmail.com" }
   });
   var sacha = Meteor.users.findOne(sachaId);
+  
+  for (var i = 0; i < 100; i++) {
+  	Posts.insert({
+  		title: 'Test Class #' + i,
+  		author: sacha.profile.username,
+  		userId: sacha._id,
+  		startDate: new Date(now + (7 * i) * 3600 * 1000),
+  		endDate: new Date(now + (8 * i) * 3600 * 1000),
+  		startTime: "12:00",
+  		endTime: "1:00",
+  		price: "$" + (1 + i) +".00/class",
+  		submitted: new Date(now - (7 + i) * 3600 * 1000),
+  		description: "Test class for pagenation #" + i,
+  		commentsCount: 0 + i
+  	})
+  }
 
 	var introG = Posts.insert({
 		title: 'Introduction Guitar',
