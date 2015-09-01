@@ -12,12 +12,12 @@ sacha:spin
 accounts-password
 materialize:materialize
 service-configuration
-useraccounts:materialize
 aldeed:template-extension
-useraccounts:iron-routing
 accounts-google
 aldeed:autoform
 aldeed:collection2
 gildaspk:autoform-modals-materialize
 gildaspk:autoform-materialize
 momentjs:moment
+fongandrew:materialize-modals
+accounts-ui
