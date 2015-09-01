@@ -1,5 +1,3 @@
-AccountsTemplates.configureRoute('signIn');
-
 AccountsTemplates.addField({
     _id: 'username',
     type: 'text',
