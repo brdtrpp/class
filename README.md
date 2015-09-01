@@ -23,9 +23,8 @@ Share the world’s knowledge.
 
 ## To Do
 
-* Create Accounts Page
 * Form Validation
+* Accordian Style Forms
 * Pagenation - infinite scroll!
-* Voting/Star System
 * Sorting Options
 * Search Methods
