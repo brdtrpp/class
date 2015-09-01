@@ -1,1 +1,1 @@
-LoginModals.init()
+LoginModals.init();
