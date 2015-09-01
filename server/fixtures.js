@@ -11,7 +11,7 @@ if (Posts.find().count() === 0) {
   });
   var sacha = Meteor.users.findOne(sachaId);
   
-  for (var i = 0; i < 100; i++) {
+  for (var i = 0; i < 10; i++) {
   	Posts.insert({
   		title: 'Test Class #' + i,
   		author: sacha.profile.username,
