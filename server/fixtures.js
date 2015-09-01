@@ -23,8 +23,10 @@ if (Posts.find().count() === 0) {
   		price: "$" + (1 + i) +".00/class",
   		submitted: new Date(now - (7 + i) * 3600 * 1000),
   		description: "Test class for pagenation #" + i,
-  		commentsCount: 0 + i
-  	})
+  		commentsCount: 0 + i,
+  		upvoters: [],
+		votes: 0 + i
+  	});
   }
 
 	var introG = Posts.insert({
@@ -37,7 +39,9 @@ if (Posts.find().count() === 0) {
 		endTime: '1:30',
 		price: '$15/hour',
 		submitted: new Date(now - 7 * 3600 * 1000),
-		commentsCount: 2
+		commentsCount: 2,
+		upvoters: [],
+		votes: 0
 	});
 
 	Posts.insert({
@@ -50,7 +54,9 @@ if (Posts.find().count() === 0) {
 		endTime: '1:30',
 		price: '$20/hour',
 		submitted: new Date(now - 10 * 3600 * 1000),
-		commentsCount: 0
+		commentsCount: 0,
+		upvoters: [],
+		votes: 0
 	});
 
 	Posts.insert({
@@ -63,7 +69,9 @@ if (Posts.find().count() === 0) {
 		endTime: '1:30',
 		price: '$25/hour',
 		submitted: new Date(now - 7 * 3600 * 1000),
-		commentsCount: 2
+		commentsCount: 2,
+		upvoters: [],
+		votes: 0
 	});
 
 	Posts.insert({
@@ -76,7 +84,9 @@ if (Posts.find().count() === 0) {
 		endTime: '1:30',
 		price: '$25/hour',
 		submitted: new Date(now - 7 * 3600 * 1000),
-		commentsCount: 2
+		commentsCount: 2,
+		upvoters: [],
+		votes: 0
 	});
 
 	Comments.insert({
