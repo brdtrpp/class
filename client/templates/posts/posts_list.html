@@ -3,7 +3,7 @@
 		<div class="row">
 			{{#each posts}}
 				<div class="col s12 m6 l4">
-				  <div class="card medium hoverable">
+				  <div class="card small hoverable">
   					{{> postItem}}
 					</div>
 				</div>
@@ -11,7 +11,7 @@
 		</div>
 		<div class='row'>
       {{#if nextPath}}
-        <div class="card blue-grey darken-1">
+        <div class="card grey lighten-1 z-depth-0">
             <span class="card-title"><center><a class="white-text" href="{{nextPath}}">Load More</a></center></span>
         </div>
       {{/if}}

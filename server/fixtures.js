@@ -7,7 +7,7 @@ if (Posts.find().count() === 0) {
   });
   var tom = Meteor.users.findOne(tomId);
   var sachaId = Meteor.users.insert({
-    profile: { username: 'Sacha Greif', email: "sacha.greif@gmail.com" }
+    profile: { username: 'SachaG', email: "sacha.greif@gmail.com", firstname: 'Sacha', lastname: 'Greif' }
   });
   var sacha = Meteor.users.findOne(sachaId);
   
