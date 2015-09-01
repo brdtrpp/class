@@ -81,11 +81,5 @@ tracker@1.0.7
 ui@1.0.6
 underscore@1.0.3
 url@1.0.4
-<<<<<<< HEAD
-useraccounts:core@1.12.3
-useraccounts:iron-routing@1.12.3
-useraccounts:materialize@1.12.3
-=======
->>>>>>> useraccounts
 webapp@1.2.0
 webapp-hashing@1.0.3
