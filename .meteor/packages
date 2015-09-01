@@ -21,3 +21,5 @@ gildaspk:autoform-materialize
 momentjs:moment
 fongandrew:materialize-modals
 accounts-ui
+accounts-facebook
+accounts-twitter
