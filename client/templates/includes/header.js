@@ -6,4 +6,3 @@ Template.header.rendered = function () {
 
 };
 
-Template.atNavButtonMat.replaces("atNavButton");
