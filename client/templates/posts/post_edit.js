@@ -17,7 +17,7 @@ Template.postEdit.events({
         city: $(e.target).find('[name=city]').val(),
         state: $(e.target).find('[name=state]').val(),
         zip: $(e.target).find('[name=zip]').val()
-    }
+    };
 
     Posts.update(currentPostId, {$set: postProperties}, function(error) {
       if (error) {
