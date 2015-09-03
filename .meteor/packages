@@ -18,10 +18,10 @@ aldeed:autoform
 aldeed:collection2
 gildaspk:autoform-modals-materialize
 gildaspk:autoform-materialize
-momentjs:moment
 fongandrew:materialize-modals
 accounts-ui
 accounts-facebook
 accounts-twitter
-mattkrick:lolliclock
 matteodem:easy-search
+jquery
+mattkrick:lolliclock

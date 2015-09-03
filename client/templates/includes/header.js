@@ -5,4 +5,3 @@ Template.header.rendered = function () {
       });
 
 };
-

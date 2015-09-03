@@ -21,10 +21,9 @@ Anyone who is looking to learn something new can now hop on the website/app and 
 
 Share the world’s knowledge. 
 
-## To Do
+# To Do
 
 * Form Validation
-* Accordian Style Forms
-* Pagenation - infinite scroll!
+* Prevent Duplicate Classes
+* Correct deployed app problems
 * Sorting Options
-* Search Methods
