@@ -17,36 +17,14 @@
   <div class="row">
     {{> esLoadMoreButton index="posts"}}
   </div>
-  
+
 
   {{#ifEsHasNoResults index="posts"}}
-      <div class="no-results">No results found!</div>
+      <h3 class="center-align">Sorry, but there were no classes found.</h3>
   {{/ifEsHasNoResults}}
 
   {{#ifEsIsSearching index="posts"}}
           <div>{{> loading}}</div>
   {{/ifEsIsSearching}}
 
-
-	<!--<div class="posts">-->
-	<!--	<div class="row">-->
-	<!--		{{#each posts}}-->
-	<!--			<div class="col s12 m6 l4">-->
-	<!--			  <div class="card small hoverable">-->
- <!-- 					{{> postItem}}-->
-	<!--				</div>-->
-	<!--			</div>-->
-	<!--		{{/each}}-->
-	<!--	</div>-->
-	<!--	<div class='row'>-->
- <!--     {{#if nextPath}}-->
- <!--       <div class="card grey lighten-1 z-depth-0">-->
- <!--           <span class="card-title"><center><a class="white-text" href="{{nextPath}}">Load More</a></center></span>-->
- <!--       </div>-->
- <!--     {{/if}}-->
- <!--     {{#unless ready}}-->
- <!--       {{> loading}}-->
- <!--     {{/unless}}-->
-	<!--	</div>-->
-	<!--</div>-->
 </template>
