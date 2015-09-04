@@ -25,5 +25,4 @@ Share the world’s knowledge.
 
 * Form Validation
 * Prevent Duplicate Classes
-* Correct deployed app problems
 * Sorting Options
