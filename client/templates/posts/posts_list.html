@@ -4,16 +4,12 @@
       {{> landing}}
     {{/ifEsInputIsEmpty}}
   </div>
+  <ul class="collection">
+    {{#esEach index="posts"}}
+  		{{> postListItem}}
+    {{/esEach}}
+  </ul>
 
-  <div class="row">
-      {{#esEach index="posts"}}
-        <div class="col s12 m6 l4">
-				  <div class="card small hoverable">
-  					{{> postItem}}
-					</div>
-				</div>
-      {{/esEach}}
-  </div>
   <div class="row">
     {{> esLoadMoreButton index="posts"}}
   </div>

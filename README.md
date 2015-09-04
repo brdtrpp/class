@@ -23,6 +23,22 @@ Share the world’s knowledge.
 
 # To Do
 
+## Current Issues
+
+* Make Landing Page Appealing
+* Make Welcome Page More Informative
 * Form Validation
 * Prevent Duplicate Classes
+* Reroute when searched
+* Clean up UI
+
+
+## Planned Features to Test
+
+* Dashboard
+* Stripe Integration (accepting and paying)
+* Attendance Recording
+* Accounting Integration
+* Tagging and Categorizing
+* Pictures for Classes
 * Sorting Options
