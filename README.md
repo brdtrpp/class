@@ -33,6 +33,8 @@ Share the world’s knowledge.
 * Clean up UI
 * Facebook Login
 * Username should be Facebook Name
+* Post List Layout
+* Post Search Enter
 
 
 ## Planned Features to Test

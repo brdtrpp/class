@@ -1,0 +1,11 @@
+<template name="landing">
+  {{#if currentUser}}
+  <div class="row">
+    <h1 class="center-align">
+      Welcome back!
+    </h1>
+  </div>
+  {{else}}
+    {{> landingOut}}
+  {{/if}}
+</template>
