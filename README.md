@@ -28,9 +28,11 @@ Share the world’s knowledge.
 * Make Landing Page Appealing
 * Make Welcome Page More Informative
 * Form Validation
-* Prevent Duplicate Classes
+* Prevent Duplicate Class Posts
 * Reroute when searched
 * Clean up UI
+* Facebook Login
+* Username should be Facebook Name
 
 
 ## Planned Features to Test
