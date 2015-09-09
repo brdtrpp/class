@@ -1,0 +1,12 @@
+<template name="signUpButton">
+  <!-- Modal Trigger -->
+  <a class="modal-trigger waves-effect waves-light" href="#signup">Sign Up</a>
+</template>
+
+<template name="signInButton">
+  {{#if currentUser}}
+  <a class="logout waves-effect waves-light">Sign Out</a>
+  {{else}}
+  <a class="modal-trigger waves-effect waves-light" href="#signin">Sign In</a>
+  {{/if}}
+</template>

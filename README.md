@@ -25,8 +25,7 @@ Share the world’s knowledge.
 
 ## Current Issues
 
-* Make Landing Page Appealing
-* Make Welcome Page More Informative
+
 * Form Validation
 * Prevent Duplicate Class Posts
 * Reroute when searched
