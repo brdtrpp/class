@@ -13,8 +13,8 @@ service-configuration
 gildaspk:autoform-modals-materialize
 gildaspk:autoform-materialize
 fongandrew:materialize-modals
-accounts-ui
-accounts-facebook
 matteodem:easy-search
 mattkrick:lolliclock
-accounts-password
+useraccounts:materialize
+manuel:abtest
+accounts-facebook

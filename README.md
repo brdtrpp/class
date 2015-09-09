@@ -34,6 +34,7 @@ Share the world’s knowledge.
 * Facebook Login
 * Username should be Facebook Name
 * Post List Layout more appealing
+* Star Rating System
 
 
 ## Planned Features to Test

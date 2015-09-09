@@ -4,26 +4,27 @@
       {{> landing}}
     {{/ifEsInputIsEmpty}}
   </div>
-  <div class="row">
-    {{#esEach index="posts"}}
-    <div class="col s12 m6 l4">
-      <div class="card medium">
-        {{> postItem}}
+  <div class="container">
+    <div class="row">
+      {{#esEach index="posts"}}
+      <div class="col s12 m6 l4">
+        <div class="card medium">
+          {{> postItem}}
+        </div>
       </div>
+      {{/esEach}}
     </div>
-    {{/esEach}}
+    <div class="row">
+      {{> esLoadMoreButton index="posts"}}
+    </div>
+  
+  
+    {{#ifEsHasNoResults index="posts"}}
+        <h3 class="center-align">Sorry, but there were no classes found.</h3>
+    {{/ifEsHasNoResults}}
+  
+    {{#ifEsIsSearching index="posts"}}
+            <div>{{> loading}}</div>
+    {{/ifEsIsSearching}}
   </div>
-  <div class="row">
-    {{> esLoadMoreButton index="posts"}}
-  </div>
-
-
-  {{#ifEsHasNoResults index="posts"}}
-      <h3 class="center-align">Sorry, but there were no classes found.</h3>
-  {{/ifEsHasNoResults}}
-
-  {{#ifEsIsSearching index="posts"}}
-          <div>{{> loading}}</div>
-  {{/ifEsIsSearching}}
-
 </template>
