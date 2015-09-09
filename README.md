@@ -26,18 +26,17 @@ Share the world’s knowledge.
 ## Current Issues
 
 * Form Validation
+* Username Missing
 * Prevent Duplicate Class Posts
 * Reroute when searched
 * Clean up UI
-* Facebook Login
-* Username should be Facebook Name
-* Post List Layout more appealing
 * Star Rating System
 
 
 ## Planned Features to Test
 
 * Dashboard
+* Social Logins
 * Stripe Integration (accepting and paying)
 * Attendance Recording
 * Accounting Integration
