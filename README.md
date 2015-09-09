@@ -25,7 +25,6 @@ Share the world’s knowledge.
 
 ## Current Issues
 
-
 * Form Validation
 * Prevent Duplicate Class Posts
 * Reroute when searched
