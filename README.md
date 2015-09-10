@@ -30,16 +30,15 @@ Share the world’s knowledge.
 
 ## Current Issues
 
+* API integration for:
+** Craigslist
+** Eventbrite
 * Form Validation
 * Username Missing
 * Prevent Duplicate Class Posts
 * Reroute when searched
 * Clean up UI
 * Star Rating System
-
-
-## Planned Features to Test
-
 * Dashboard
 * Social Logins
 * Stripe Integration (accepting and paying)
