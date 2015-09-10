@@ -1,13 +1,13 @@
 <template name="layout">
 	<div class="container-fluid">
 		{{> header}}
+		
 		{{> errors}}
 		<div class="container-fluid" id="main">
 			{{> yield}}
 		</div>
 		{{> floatinbutton}}
-		
-		{{> modals}}
 	</div>
-	{{> footer}}
+	{{> modals}}
+	<!--{{> footer}}-->
 </template>

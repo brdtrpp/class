@@ -23,6 +23,11 @@ Share the world’s knowledge.
 
 # To Do
 
+## Getting The Hockey Stick
+
+* Get users from Craigslist
+* Post to Craigslist
+
 ## Current Issues
 
 * Form Validation

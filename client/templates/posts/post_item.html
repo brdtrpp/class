@@ -1,22 +1,24 @@
 <template name="postItem">
-		<div class="card-title  grey-text text-darken-4 center">
-	    {{title}} <small>{{city}}</small>
-		</div>
-		<div class="card-content">
-			<div>{{startDate}} - {{endDate}}</div>
-			<div>{{startTime}} - {{endTime}}</div>
-			<div>instructed by {{author}}</div>
-			<p>{{description}}</p>
-			<p>{{address1}}</p>
-			<p>{{address2}}</p>
-			<p>{{city}}, {{state}} {{zipcode}}</p>
-		</div>
-		<div class="card-content">
-			<div class="left">{{commentsCount}} comments</div>
-			<!--<div class="right">{{votes}} Stars</div>-->
-		</div>
-		<div class="card-action">
-			<a href="{{pathFor 'postPage'}}" class="waves-effect btn white-text">Join Class</a>
-			{{#if ownPost}}<a href="{{pathFor 'postEdit'}}" class="right ">Edit</a>{{/if}}
-		</div>
+	<div class="center-align">
+		<a href="{{pathFor 'postPage'}}" class="card-title  grey-text text-darken-4">
+	    {{title}} <small>{{city}}, {{state}}</small>
+		</a>
+	</div>
+	<div class="card-content">
+		<div>{{startDate}} - {{endDate}}</div>
+		<!--<div>{{startTime}} - {{endTime}}</div>-->
+		<!--<div>instructed by {{author}}</div>-->
+		<p>{{description}}</p>
+		<!--<p>{{address1}}</p>-->
+		<!--<p>{{address2}}</p>-->
+		<!--<p>{{city}}, {{state}} {{zipcode}}</p>-->
+	</div>
+	<div class="card-content">
+		<div class="left">{{commentsCount}} comments</div>
+	</div>
+	<div class="card-action">
+		<a href="http://{{url}}" class="waves-effect btn orange white-text">More Information</a>
+
+		{{#if ownPost}}<a href="{{pathFor 'postEdit'}}" class="right ">Edit</a>{{/if}}
+	</div>
 </template>

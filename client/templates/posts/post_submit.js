@@ -14,7 +14,8 @@ Template.postSubmit.events({
         address2: $(e.target).find('[name=address2]').val(),
         city: $(e.target).find('[name=city]').val(),
         state: $(e.target).find('[name=state]').val(),
-        zip: $(e.target).find('[name=zip]').val()
+        zip: $(e.target).find('[name=zip]').val(),
+        url: $(e.target).find('[name=url]').val()
     };
 
     Meteor.call('postInsert', post, function(error, result) {
