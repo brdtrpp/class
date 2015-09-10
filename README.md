@@ -30,9 +30,7 @@ Share the world’s knowledge.
 
 ## Current Issues
 
-* API integration for:
-** Craigslist
-** Eventbrite
+* API integration for: Craigslist, Eventbrite, Facebook, Twitter
 * Form Validation
 * Username Missing
 * Prevent Duplicate Class Posts
