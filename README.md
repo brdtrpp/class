@@ -32,10 +32,11 @@ Share the world’s knowledge.
 
 * Edit Landing Page for Hobbiest
 * Remove Modals
-* Add Sign-in/Sign-up page with re
+* Add Sign-in/Sign-up page with reroute
 * API integration for: Craigslist, Eventbrite, Facebook, Twitter
 * Form Validation
 * Username Missing
+* Filter Options
 * Prevent Duplicate Class Posts
 * Reroute when searched
 * Clean up UI
