@@ -6,10 +6,11 @@
         <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
         <ul class="right">
           <li>{{> signInButton}}</li>
+          <li>{{> navSignUp}}</li>
           {{#if currentUser}}
             <li>{{> notifications}}</li>
           {{else}}
-            <li>{{> signUpButton}}</li>
+            <!--<li>{{> navSignUp}}</li>-->
           {{/if}}
         </ul>
         <ul class="side-nav" id="slide-out">

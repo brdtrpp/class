@@ -30,6 +30,9 @@ Share the world’s knowledge.
 
 ## Current Issues
 
+* Edit Landing Page for Hobbiest
+* Remove Modals
+* Add Sign-in/Sign-up page with re
 * API integration for: Craigslist, Eventbrite, Facebook, Twitter
 * Form Validation
 * Username Missing

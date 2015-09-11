@@ -10,6 +10,8 @@ Template.signInButton.rendered = function() {
   });
 };
 
+
+
 Template.signInButton.events({
   'click .logout': function(event){
         event.preventDefault();
