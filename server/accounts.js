@@ -1,5 +1,5 @@
-Meteor.methods({
-        "userExists": function(username){
-            return !!Meteor.users.findOne({username: username});
-        },
-    });
+// Meteor.methods({
+//         "userExists": function(username){
+//             return !!Meteor.users.findOne({username: username});
+//         },
+//     });

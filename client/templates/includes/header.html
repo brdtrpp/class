@@ -5,11 +5,10 @@
         <a href="/" class="brand-logo center">Class</a>
         <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
         <ul class="right">
-          
+           <li>{{> atNavButton}}</li>
           {{#if currentUser}}
+         
             <li>{{> notifications}}</li>
-          {{else}}
-            
           {{/if}}
         </ul>
         <ul class="side-nav" id="slide-out">
