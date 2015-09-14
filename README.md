@@ -25,8 +25,8 @@ Share the world’s knowledge.
 
 ## Getting The Hockey Stick
 
-* Get users from Craigslist
-* Post to Craigslist
+* Google Hobby Classes and Transcribe Manually
+* Look into partnerships with: HomeDepot, Michaels, Lowes,
 
 ## Current Issues
 
