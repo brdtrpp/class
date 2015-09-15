@@ -7,24 +7,24 @@
           <div class="collapsible-body">
             <div class="row">
               <div class="input-field col s12 m6">
-                  <label for="title" data-error="wrong">Title</label>
+                  <label for="title" data-error="wrong" class="active">Title</label>
                   <input name="title" id="title" type="text" class="validate">
               </div>
               <div class="input-field col s12 m6">
-                  <label for="price" data-error="wrong">Price</label>
+                  <label for="price" data-error="wrong" class="active">Price</label>
                   <input name="price" id="price" type="text" class="validate">
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
                   <textarea name="description" id="description" type="text" class="materialize-textarea"></textarea>
-                  <label for="description">Description</label>
+                  <label for="description" class="active">Description</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
                 <input name="url" id="url" type="text"/>
-                <label for="url">Website</label>
+                <label for="url" class="active">Website</label>
               </div>
             </div>
           </div>
@@ -68,12 +68,12 @@
             <!--</div>-->
             <div class="input-field col s5">
                 <label for="city">City</label>
-                <input name="city" id="city" type="text" value=""/>
+                <input name="city" id="city" type="text" value="" class="validate"/>
             </div>
             <div class="input-field col s3">
-              <label for="state">State</label>
+              <label for="state" class="active">State</label>
               <select name="state" id="state" type="text">
-                <option value="--">Select State</option>
+                <option value="" disabled selected>State</option>
               	<option value="AL">Alabama</option>
               	<option value="AK">Alaska</option>
               	<option value="AZ">Arizona</option>
