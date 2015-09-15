@@ -1,7 +1,7 @@
 <template name="postItem">
 	<div class="center-align">
 		<a href="{{pathFor 'postPage'}}" class="card-title  grey-text text-darken-4">
-	    {{title}} <small>{{city}}, {{state}}</small>
+	    {{title}} <small>{{zip}}</small>
 		</a>
 	</div>
 	<div class="card-content">
@@ -11,7 +11,7 @@
 		<p>{{description}}</p>
 		<!--<p>{{address1}}</p>-->
 		<!--<p>{{address2}}</p>-->
-		<!--<p>{{city}}, {{state}} {{zipcode}}</p>-->
+		<p>{{city}}, {{state}} {{zipcode}}</p>
 	</div>
 	<div class="card-content">
 		<div class="left">{{commentsCount}} comments</div>

@@ -34,7 +34,6 @@ Share the world’s knowledge.
 * API integration for: Craigslist, Eventbrite, Facebook, Twitter
 * Form Validation
 * Filter Options
-* Prevent Duplicate Class Posts
 * Reroute when searched
 * Clean up UI
 * Star Rating System
