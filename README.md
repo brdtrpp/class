@@ -33,7 +33,6 @@ Share the world’s knowledge.
 * Edit Landing Page for Hobbiest
 * API integration for: Craigslist, Eventbrite, Facebook, Twitter
 * Form Validation
-* Username Missing
 * Filter Options
 * Prevent Duplicate Class Posts
 * Reroute when searched

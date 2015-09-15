@@ -7,7 +7,7 @@
 	<div class="card-content">
 		<div>{{startDate}} - {{endDate}}</div>
 		<!--<div>{{startTime}} - {{endTime}}</div>-->
-		<!--<div>instructed by {{author}}</div>-->
+		<div>instructed by {{author}}</div>
 		<p>{{description}}</p>
 		<!--<p>{{address1}}</p>-->
 		<!--<p>{{address2}}</p>-->
@@ -17,8 +17,7 @@
 		<div class="left">{{commentsCount}} comments</div>
 	</div>
 	<div class="card-action">
-		<a href="http://{{url}}" class="waves-effect btn orange white-text">More Information</a>
-
+		<a href="http://{{url}}" class="waves-effect btn orange white-text">More Info</a>
 		{{#if ownPost}}<a href="{{pathFor 'postEdit'}}" class="right ">Edit</a>{{/if}}
 	</div>
 </template>
