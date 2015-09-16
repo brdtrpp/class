@@ -32,7 +32,7 @@ Share the world’s knowledge.
 
 * Edit Landing Page for Hobbiest
 * API integration for: Craigslist, Eventbrite, Facebook, Twitter
-* Form Validation
+* Form Validation 
 * Filter Options
 * Reroute when searched
 * Clean up UI
