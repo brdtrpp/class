@@ -1,4 +1,4 @@
-// if (Posts.find().count() === 0) {
+if (Posts.find().count() === 0) {
 //   var now = new Date().getTime();
 
 //   // create two users
@@ -11,23 +11,73 @@
 //   });
 //   var sacha = Meteor.users.findOne(sachaId);
   
-//   for (var i = 0; i < 10; i++) {
-//   	Posts.insert({
-//   		title: 'Test Class #' + i,
-//   		author: sacha.profile.username,
-//   		userId: sacha._id,
-//   		startDate: new Date(now + (7 * i) * 3600 * 1000),
-//   		endDate: new Date(now + (8 * i) * 3600 * 1000),
-//   		startTime: "12:00",
-//   		endTime: "1:00",
-//   		price: "$" + (1 + i) +".00/class",
-//   		submitted: new Date(now - (7 + i) * 3600 * 1000),
-//   		description: "Test class for pagenation #" + i,
-//   		commentsCount: 0 + i,
-//   		upvoters: [],
-// 		votes: 0 + i
-//   	});
-//   }
+  for (var i = 0; i < 10; i++) {
+  	Posts.insert({
+  		title: 'Parent & Child Art Class',
+  		startDate: new Date(2015, 8, 13 + ( i * 7)),
+  		endDate: new Date(2015, 8, 13 + ( i * 7)),
+  		startTime: "10:00AM",
+  		endTime: "10:45AM",
+  		price: "$12 per visit or $42 four class pass",
+  		submitted: new Date(2015, 8, 12),
+  		description: "Youngsters can enjoy the freedom of artist expression while bonding with the parents in our special art class just for toddlers and parents. They will explore all kinds of art materials and learn fine motor skills in this fun creative class. Class pass interchangeable between Parent & Child or K-4 Art Class and can be shared with siblings. 6 month expiration from purchase.",
+  		commentsCount: 0,
+  		city: 'Beavercreek',
+  		state: 'OH',
+  		url: 'www.decoy-art.com/'
+  	});
+  }
+  
+  for (var i = 0; i < 10; i++) {
+  	Posts.insert({
+  		title: 'Parent & Child Art Class',
+  		startDate: new Date(2015, 8, 16 + ( i * 7)),
+  		endDate: new Date(2015, 8, 16 + ( i * 7)),
+  		startTime: "11:00AM",
+  		endTime: "11:45AM",
+  		price: "$12 per visit or $42 four class pass",
+  		submitted: new Date(2015, 8, 12),
+  		description: "Youngsters can enjoy the freedom of artist expression while bonding with the parents in our special art class just for toddlers and parents. They will explore all kinds of art materials and learn fine motor skills in this fun creative class. Class pass interchangeable between Parent & Child or K-4 Art Class and can be shared with siblings. 6 month expiration from purchase.",
+  		commentsCount: 0,
+  		city: 'Beavercreek',
+  		state: 'OH',
+  		url: 'www.decoy-art.com/'
+  	});
+  }
+  
+  for (var i = 0; i < 10; i++) {
+  	Posts.insert({
+  		title: 'Kids K–4th Art Class',
+  		startDate: new Date(2015, 8, 13 + ( i * 7)),
+  		endDate: new Date(2015, 8, 13 + ( i * 7)),
+  		startTime: "11:30AM",
+  		endTime: "12:30pM",
+  		price: "$12 per visit or $42 four class pass",
+  		submitted: new Date(2015, 8, 12),
+  		description: "The weekly art class will introduce kids to all sorts of art forms. They will try new media, learn about artists and how to make their own pieces better every week.",
+  		commentsCount: 0,
+  		city: 'Beavercreek',
+  		state: 'OH',
+  		url: 'www.decoy-art.com/'
+  	});
+  }
+  
+  for (var i = 0; i < 10; i++) {
+  	Posts.insert({
+  		title: 'Kids Clay Time',
+  		startDate: new Date(2015, 8, 13 + ( i * 7)),
+  		endDate: new Date(2015, 8, 13 + ( i * 7)),
+  		startTime: "11:30AM",
+  		endTime: "12:30pM",
+  		price: "$78 per student",
+  		submitted: new Date(2015, 8, 12),
+  		description: "Let us take your child’s skill with clay to the next level! With this three day course, they get to experience in-depth clay projects. From wheel throwing to hand building, each series focuses on a range of topics to complete one large scale work or several smaller pieces. Teaching the clay process from mud, to glaze and fire.",
+  		commentsCount: 0,
+  		city: 'Beavercreek',
+  		state: 'OH',
+  		url: 'www.decoy-art.com/'
+  	});
+  }
 
 // 	var introG = Posts.insert({
 // 		title: 'Introduction Guitar',
@@ -105,5 +155,5 @@
 //     submitted: new Date(now - 3 * 3600 * 1000),
 //     body: 'You sure can Tom!'
 //   });
-// }
+}
 
