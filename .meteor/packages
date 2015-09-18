@@ -20,6 +20,5 @@ manuel:abtest
 accounts-password
 useraccounts:iron-routing
 aldeed:template-extension
-accounts-facebook
 accounts-ui
 aldeed:autoform
